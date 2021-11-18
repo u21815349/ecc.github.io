@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*Global styles*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*--main-font: 'Herr Von Muellerhoff', cursive;*/
+    --body-font: font-family: 'Open Sans', sans-serif;;
+}
+
+html{
+    /*color: var(--body-font-color);*/
+    scroll-behavior: smooth; /*ensure smooth transitions when jusmping from bottom to top*/
+}
+
+
+
+body{
+    background-color: #F1F1F1;
+}
+
+header{
+    height: 5rem;
+    background-color:#3C77B2;
+}
+
+#slides{
+    height: 100vh;
+    display: block;
+    font-family: var(--body-font);
+    font-size: 30px;
+}
+
+.slide{
+    
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.image-wrapper{
+    width: 50vw;
+    height: 100%;
+}
+
+.image-wrapper > img{
+    padding-left: 10%;
+}
+
+.text-container{
+    width: 40vw;
+    position: relative;
+}
+
+.text-container .btn-narrate{
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.text-container > .text-wrapper{
+    padding-top: 25%;
+    padding-left: 3rem;
+    
+}
+
+.slide-not-first{
+    margin-top: 20%;
+    padding-bottom: 7%;
+}
+
+
