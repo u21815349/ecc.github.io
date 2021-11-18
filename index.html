@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0,  minimum-scale=1.0, min-width=360", >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ECC-Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header></header>
+    <section id="slides">
+        <div class="slide">
+            <div class="image-wrapper"><img src="https://i.ibb.co/Dz1PRqc/1.png" alt="1"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>Create a 5x5 grid with random 
+                        black and white squares
+                    </p>
+                </br>
+                    <p>
+                        Let's make this more complicated.
+                    </p>
+                    </br>
+                    <a href="#slide2">Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide2">
+            <div class="image-wrapper"><img src="https://i.ibb.co/Dz1PRqc/1.png"" alt="2"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Let's add another row and colum. Follow along, tell me if you can spot a pattern!
+                    </p>
+                </br></br>
+                <a href="#slide3">Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide3">
+            <div class="image-wrapper">
+                <img class="changing-image" src="https://i.ibb.co/J2KHpSR/2.png" alt="3"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Take note of the last row and colum.
+                    </p>
+                </br></br>
+                <a class="recurring-link" >Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide4">
+            <div class="image-wrapper"><img src="https://i.ibb.co/xYm0w32/7.png"" alt="7"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Right, this is enough for now.
+                        Do you think you spotted a pattern?
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">View Options
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">None</a></li>
+                          <li><a href="#">Each row and colum have 4 black squares</a></li>
+                          <li><a href="#">Each row and colum have 2 black squares</a></li>
+                        </ul>
+                      </div>
+                    </br>
+                    <p>Next up we will flip a card, lets see if you can identify it</p>
+                <a class="flip-card-next-button" href="#slide5">Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide5">
+            <div class="image-wrapper">
+                <img class="flipping-card" src="https://i.ibb.co/xYm0w32/7.png"" alt="7"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Can you spot the flipped card?
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">View Options
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">row 1 col 3</a></li>
+                          <li><a href="#">row 3 col 6</a></li>
+                          <li><a href="#">No card was flipped</a></li>
+                        </ul>
+                      </div>
+                    </br>
+                <a href="#slide6" >Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide6">
+            <div class="image-wrapper">
+                <img class="changing-image" src="https://i.ibb.co/T0j6yL1/8.png" alt="3"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Count the number of black squares in each row, what do you notice?
+                        Count the number of black squares in each colum, notice anything?
+                    </p>
+                    </br>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">View Options
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Option 1</a></li>
+                          <li><a href="#">Option 2</a></li>
+                          <li><a href="#">Option 3</a></li>
+                        </ul>
+                      </div>
+                    </br>
+                    <p>
+                        Hint: One row and one colum don't follow the pattern
+                    </p>
+                <a href="#slide7" >Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide7">
+            <div class="image-wrapper">
+                <img class="changing-image" src="https://i.ibb.co/T0j6yL1/8.png" alt="3"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Each column has an even number of black squares and each row has an even number of black squares. 
+                        Except for row ... and ... .
+                    </p>
+                    </br>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">View Options
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Option 1</a></li>
+                          <li><a href="#">Option 2</a></li>
+                          <li><a href="#">Option 3</a></li>
+                        </ul>
+                      </div>
+                    </br>
+                    <p>
+                        Great! Can you find the flipped card now?
+                    </p>
+                <a href="#slide8" >Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide8">
+            <div class="image-wrapper">
+                <img class="changing-image" src="https://i.ibb.co/T0j6yL1/8.png" alt="3"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Ah hah! The flipped card is at the inersection of row 3 and colum 6.
+                    </p>
+                    <p>
+                        Wait! But the cards were placed randomly though, or were they?
+                        The initial cards were random but the last row and colum we added were strategic.
+                    </p>
+                </br></br>
+                <a >Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
