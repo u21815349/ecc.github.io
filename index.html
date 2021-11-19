@@ -13,7 +13,21 @@
 <body>
     <header></header>
     <section id="slides">
-        <div class="slide">
+        <div class="slide" id="slide0">
+            <div class="image-wrapper"><img src="barcode.png" alt="1" width="500px" height="400px"></div>
+            <div class="image-wrapper"><img src="ecc.jpg" alt="1" width="500px" height="500px"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <h1 style="font-size: 45px;">What do these pictures have in common?</h1>
+                    
+                </div>
+                <audio id="sound1" src="audio/temple.mp3" preload="auto"></audio>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate" 
+                onclick="document.getElementById('sound1').play();">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide1">
             <div class="image-wrapper"><img src="https://i.ibb.co/Dz1PRqc/1.png" alt="1"></div>
             <div class="text-container">
                 <div class="text-wrapper">
