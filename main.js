@@ -1,10 +1,26 @@
-let narrate = document.querySelector(".recurring-link");
 let changingImage = document.querySelector(".changing-image");
 let recuringLink = document.querySelector(".recurring-link")
+let recuringLinkBack = document.querySelector(".recurring-link-back")
 
-var changinImageCount = 3;
-narrate.addEventListener('click', function(){
+var changinImageCount = 2;
+recuringLink.addEventListener('click',  function(){
+    changinImageCount++;
+    changeImage();
+});
+
+recuringLinkBack.addEventListener('click', function () {
+    if(changinImageCount >=2){
+        changinImageCount--;
+        changeImage();
+    }
+});
+
+
+function changeImage() {
     switch(changinImageCount) {
+        case 2:
+            changingImage.src = "https://i.ibb.co/J2KHpSR/2.png"
+            break
         case 3:
             changingImage.src = "https://i.ibb.co/qMPP6qj/3.png"
             break;
@@ -24,8 +40,7 @@ narrate.addEventListener('click', function(){
             recuringLink.href = "#slide4"
         default:
       } 
-    changinImageCount++;
-})
+}
 
 var flipCardCount = 0;
 let flipCardBtn = document.querySelector(".flip-card-next-button");

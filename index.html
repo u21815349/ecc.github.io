@@ -17,6 +17,7 @@
             <div class="image-wrapper"><img src="https://i.ibb.co/Dz1PRqc/1.png" alt="1"></div>
             <div class="text-container">
                 <div class="text-wrapper">
+                    
                     <p>Create a 5x5 grid with random 
                         black and white squares
                     </p>
@@ -27,12 +28,14 @@
                     </br>
                     <a href="#slide2">Next</a>
                 </div>
-                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+                <audio id="sound1" src="audio/temple.mp3" preload="auto"></audio>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate" 
+                onclick="document.getElementById('sound1').play();">Narrate</button>
             </div>
         </div>
 
         <div class="slide slide-not-first" id="slide2">
-            <div class="image-wrapper"><img src="https://i.ibb.co/Dz1PRqc/1.png"" alt="2"></div>
+            <div class="image-wrapper"><img src="https://i.ibb.co/Dz1PRqc/1.png" alt="2"></div>
             <div class="text-container">
                 <div class="text-wrapper">
                     <p>
@@ -55,6 +58,7 @@
                     </p>
                 </br></br>
                 <a class="recurring-link" >Next</a>
+                <a class="recurring-link-back">Back</a>
                 </div>
                 <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
             </div>
@@ -145,7 +149,7 @@
                 <div class="text-wrapper">
                     <p>
                         Each column has an even number of black squares and each row has an even number of black squares. 
-                        Except for row ... and ... .
+                        Except for row ... and colum ... 
                     </p>
                     </br>
                     <div class="dropdown">
@@ -179,7 +183,30 @@
                         Wait! But the cards were placed randomly though, or were they?
                         The initial cards were random but the last row and colum we added were strategic.
                     </p>
-                </br></br>
+                    <p>
+                        Let me explain how we found the card, then you'll do it all by yourself.
+                    </p>
+                </br>
+                <a href="#slide9">Next</a>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
+            </div>
+        </div>
+
+        <div class="slide slide-not-first" id="slide9">
+            <div class="image-wrapper">
+                <img class="changing-image" src="https://i.ibb.co/T0j6yL1/8.png" alt="3"></div>
+            <div class="text-container">
+                <div class="text-wrapper">
+                    <p>
+                        Initially the black and white squares in the first 5 colums and rows are placed randomly.
+                    </p>
+                        We then proceeded to fill the 6th row and 6th colum, what's the strategy?
+                    <p>
+                        When filling the last colum, count how many black squares are in the row. If the number is odd, add a black square
+                        but if it's even, add a white square.
+                    </p>
+                </br>
                 <a >Next</a>
                 </div>
                 <button type="button" class="btn btn-primary btn-lg btn-narrate">Narrate</button>
