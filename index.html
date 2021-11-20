@@ -56,18 +56,18 @@
                       When bits are transmitted over the computer network, they are subject to get corrupted due to interference and network problems. The corrupted bits leads to spurious data being received by the receiver and are called errors.
 
                       Error – detecting codes ensures messages to be encoded before they are sent over noisy channels. The encoding is done in a manner so that the decoder at the receiving end can detect whether there are errors in the incoming signal with high probability of success.
-                    </p>
+                  
                     <h2>Features of Error Detecting Codes</h2>
-                    <p style="font-size: 30px;">
+                   
                         <ol>
                               <li>Error detecting codes are adopted when backward error correction techniques are used for reliable data transmission. In this method, the receiver sends a feedback message to the sender to inform whether an error-free message has been received or not. If there are errors, then the sender retransmits the message.</li>
                               <li>Error-detecting codes are usually block codes, where the message is divided into fixed-sized blocks of bits, to which redundant bits are added for error detection.</li>
                               <li>Error detection involves checking whether any error has occurred or not. The number of error bits and the type of error does not matter.</li>
                         </ol>
-                    </p>
+                  
                     <h2>Error Detection Techniques</h2>
                     <h3>Parity-bit<h3>
-                        <p style="font-size: 30px;">
+                       
                       Parity check is done by adding an extra bit, called parity bit to the data to make number of 1s either even in case of even parity, or odd in case of odd parity.
 
                             While creating a frame, the sender counts the number of 1s in it and adds the parity bit in following way
@@ -79,7 +79,7 @@
                         On receiving a frame, the receiver counts the number of 1s in it. In case of even parity check, if the count of 1s is even, the frame is accepted, otherwise it is rejected. Similar rule is adopted for odd parity check.
 
                         <em>Parity check is suitable for single bit error detection only</em>
-                       </p>
+                   </p>
                 </div>
                 <audio id="sound1" src="audio/temple.mp3" preload="auto"></audio>
                 <button type="button" class="btn btn-primary btn-lg btn-narrate" 
