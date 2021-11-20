@@ -67,8 +67,7 @@ header{
     right: 3rem;
 }
 
-.text-container > .text-wrapper{
-    padding-top: 25%;
+.text-container > .text-wrapper
     padding-left: 3rem;
     font-size: 30px;
     
