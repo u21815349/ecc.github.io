@@ -58,6 +58,7 @@ header{
 .text-container{
     width: 40vw;
     position: relative;
+    font-size: 30px;
 }
 
 .text-container .btn-narrate{
@@ -69,6 +70,7 @@ header{
 .text-container > .text-wrapper{
     padding-top: 25%;
     padding-left: 3rem;
+    font-size: 30px;
     
 }
 
