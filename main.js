@@ -37,7 +37,7 @@ function changeImage() {
             changingImage.src = "https://i.ibb.co/xYm0w32/7.png" 
             break;
         case 8:
-            recuringLink.href = "#slide4"
+            recuringLink.href = "#slide8"
         default:
       } 
 }
